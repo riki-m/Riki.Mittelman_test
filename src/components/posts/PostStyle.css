@@ -1,0 +1,10 @@
+.style{
+    color: rgb(5, 106, 106);
+}
+.btn{
+    display: flex;
+    margin:auto;
+}
+.userName{
+    text-align: center;
+}
