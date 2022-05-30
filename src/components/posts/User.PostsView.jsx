@@ -13,7 +13,7 @@ export default function UserPostsView({ userId }) {
     useEffect(() => {
         getPostsList();
     }, []);
-
+// service function 
     function getPostsList() {
         const userId = location.state.userId;
         ApiService.getPostsList()

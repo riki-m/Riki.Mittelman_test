@@ -11,7 +11,6 @@ class ApiService extends Component {
     }
     addNewUserPost=(data)=>{
         return axios.post("https://jsonplaceholder.typicode.com/posts",data).then((response)=>{return response});
-
     }
 }
 export default new ApiService()
