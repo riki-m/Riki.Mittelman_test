@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import UsersListItem from './Users.ListItem';
+import './UserList.css'
 
 export default function UsersListView({ usersList, saveNewuser }) {
     const [searchValue, setSearchValue] = useState('');
@@ -39,7 +40,7 @@ export default function UsersListView({ usersList, saveNewuser }) {
     const list = listToDisplay() || [];
     return (
         <div>
-            <label>filter:</label>
+            <label>Filter:</label>
             {getHeader()}
             <table class="table">
 
